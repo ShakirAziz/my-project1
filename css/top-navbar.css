@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.signup-sub_container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 20px;
+  margin: 30px 0;
+  column-gap: 10px;
+  row-gap: 30px;
+}
+
+.email-address {
+  display: flex;
+  justify-content: center;
+  grid-column: 1/4;
+}
+
+.email {
+  width: 50%;
+  text-decoration: none;
+  border-radius: 8px;
+  padding: 10px;
+  text-transform: capitalize;
+}
+
+.email-password {
+  display: flex;
+  justify-content: center;
+  grid-column: 1/4;
+}
+
+.log-in {
+  display: flex;
+  justify-content: center;
+  grid-column: 1/4;
+}
+
+.log-in_btn {
+  display: block;
+  width: 50%;
+  text-decoration: none;
+  background-color: dodgerblue;
+  border-radius: 8px;
+  color: white;
+  padding: 10px 40px;
+  text-align: center;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.log-in_btn:hover {
+  font-weight: bolder;
+  color: white;
+  border: none;
+  background-color: dodgerblue;
+}
+.log-in_btn:active {
+  font-weight: bolder;
+  color: white;
+  border: none;
+  background-color: mediumseagreen;
+}
+
+.log-in_contant {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-column: 1/4;
+  text-align: center;
+}
+
+.create-account {
+  display: flex;
+  justify-content: center;
+  grid-column: 1/4;
+}
+
+.create-account_btn {
+  display: block;
+  width: 50%;
+  text-decoration: none;
+  background-color: lightgray;
+  border-radius: 8px;
+  color: dodgerblue;
+  padding: 10px 40px;
+  text-align: center;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.create-account_btn:hover {
+  font-weight: bolder;
+  color: white;
+  border: none;
+  background-color: mediumseagreen;
+}
+.create-account_btn:active {
+  font-weight: bolder;
+  color: white;
+  border: none;
+  background-color: slateblue;
+}
