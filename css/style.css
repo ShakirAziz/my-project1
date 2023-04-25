@@ -9,7 +9,7 @@
   display: flex;
   justify-content: end;
   align-items: center;
-  padding: 20px;
+  padding: 15px;
   column-gap: 10px;
   row-gap: 10px;
 }
@@ -41,6 +41,7 @@
 }
 
 .main-navbar {
+  font-size: 23px;
   width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -53,4 +54,33 @@
   width: 100%;
   display: grid;
   background-color: brown;
+}
+
+.nested-navbar {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  row-gap: 10px;
+  column-gap: 30px;
+  padding-right: 50px;
+}
+
+.nested-navbar li {
+  list-style-type: none;
+}
+
+.nested-navbar li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+}
+
+.logo {
+  text-transform: uppercase;
+  font-weight: 900;
+  color: white;
+}
+
+.logo_color {
+  color: #a4fb7b;
 }
