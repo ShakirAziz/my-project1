@@ -1,0 +1,60 @@
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 900px) {
+  .signup-btn {
+    padding: 2px 25px;
+  }
+
+  .main-navbar,
+  .center_content {
+    row-gap: 15px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .nested-navbar {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .add-btn {
+    padding: 5px 10px;
+  }
+
+  .content_first {
+    padding: 0;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .heading {
+    font-size: 25px;
+  }
+
+  .heading_color {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .main-container {
+    padding: 25px 15px;
+  }
+
+  .heading {
+    font-size: 20px;
+  }
+  .heading_color {
+    font-size: 13px;
+  }
+
+  .paragraph_section {
+    font-size: 14px;
+  }
+
+  .top-navbar {
+    padding: 10px 15px;
+  }
+
+  .main-navbar {
+    padding: 15px 30px;
+  }
+}
+@media screen and (max-width: 400px) {
+}

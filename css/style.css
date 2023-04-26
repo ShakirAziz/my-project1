@@ -137,7 +137,7 @@
   background-color: dodgerblue;
 }
 
-.centre_content {
+.center_content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-column: 1/4;
